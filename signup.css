@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+   background: url(img/jj.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.hh{
+    background-color: greenyellow;
+    position: absolute;
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    transition: .2s;
+
+}
+.hh:hover{
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+
+.container{
+    background-color:black;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.container img{
+   top: -90px;
+   left: 100px;
+   position: absolute;
+   border: 2px solid;
+   border-radius: 50px;
+   background-color:aquamarine;
+   padding: 5px;
+}
+.img-icon{
+    font-size: .8rem;
+    height: 100px;
+    width: 100px;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: orangered;
+}
+.container form{
+    /* text-align: center; */
+    line-height: 20px;
+    color: white;;    
+}
+.container input{
+    width: 90%;
+    margin-bottom: 20px;
+    text-align:left;
+    
+}
+.container input[type="text"],input[type="password"],input[type="email"],input[type="phone"]{
+    line-height: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 25px 0;
+    outline: none;
+
+
+}
+.container p{
+    text-transform: uppercase;
+    margin: 5px 0;
+    color: orange;
+}
+form button{
+    width: 110px;
+    margin:15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: orangered;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition:.9s;
+
+}
+.container button:hover{
+    background-color:aqua;
+    color: black;
+    transform: scale(1.1);
+}
+.copy{
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    text-transform: capitalize;
+    color: black;
+}

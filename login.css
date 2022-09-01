@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background:url(img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hh{
+    background-color: greenyellow;
+    position: absolute;
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    transition: .2s;
+
+}
+.hh:hover{
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+.login{
+    width:300px;
+    height: 400px;
+    position: absolute;
+    background: #000;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%; 
+    top: -85px; 
+    left:33%;
+}
+.login h1{
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.login input{
+   width: 100%;
+   margin-bottom: 25px;
+}
+.login input[type="text"],input[type="password"]{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    height: 40px;
+    outline: none;
+    font-size: 15px; 
+
+}
+.login input[type="submit"]{
+
+    border: none;
+    outline: none;
+    height: 25px;
+    border-radius: 30px;
+     background:gray;
+    font-size: 15px;
+    color: white;
+}
+.login input[type="submit"]:hover{
+    background-color: aqua;
+    color: #000;
+    cursor: pointer;
+}
+.login a{
+    color:aqua;
+    text-transform: uppercase;
+    line-height: 15px;
+
+}
+.login a:hover{
+    color:white;
+}
+.foot >p{
+    color:hotpink;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-bar{
+    background-color: black;
+    display: flex;
+    min-height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.nav-icon{
+    font-size: 3rem;
+    margin-left: 15px;
+}
+.logo{
+    color: white;
+}
+.nav-menu{
+    font-size: 1.5rem;
+    margin: 10px;
+    align-items: center;
+    margin-right: 3rem;
+    padding: 5px;
+    
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.nav-menu a:hover{
+    background-color: aqua;
+    border-radius:10px;
+    color: black;
+}
+ 
+.card-container{
+		display: flex;
+		background-color: gray;
+		padding: 5px;
+		justify-content: center;
+		align-items: center;
+	}
+	.card{
+		width: 300px;
+		margin: 10px;
+		box-sizing: border-box;
+		box-shadow: 1px 2px 3px black;
+        transition: .2s;
+
+		
+		}
+		.img-style{
+			width: 100%;
+            display: block;
+
+		}
+		.card-body{
+			padding: 5px;
+			background-color: #0066ff;
+
+		}
+		.card-title{
+			font-size:2rem;
+			text-align: center;
+			color: white;
+
+		}
+        .card-title > p{
+            background-color: black;
+            border-radius: 10px;
+            text-transform: uppercase;
+
+        }
+		.card-description{
+			text-align: center;
+			color: white;
+		}
+        .card-description >p{
+            text-transform: uppercase;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+
+@media(max-width:992px){
+    .nav-bar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:gray;
+        border-bottom: 3px dotted;
+    }
+    .nav-icon{
+        font-size: 3rem;
+        margin-left: 0;
+    }
+    .logo{
+        color: brown;
+    }
+    
+    .nav-menu{
+        font-size: 1.8rem;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+
+    }
+    .nav-menu a{
+        display: block;
+        background-color:goldenrod;
+        color: black;
+
+
+    }
+
+    .card-container{
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
